@@ -1,0 +1,121 @@
+body {
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  color: black;
+  font-size: 20px;
+}
+
+h1 {
+  text-align: center;
+}
+#description {
+  text-align: center;
+  margin-top: -10px;
+}
+
+#survey-form {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  align-items: center;
+  margin: auto;
+}
+
+#name-label {
+  align-self: flex-start;
+  margin-bottom: 5px;
+}
+
+#name {
+  width: 100%;
+  margin-bottom: 20px;
+  height: 25px;
+  border-radius: 5px;
+}
+
+#email-label {
+  align-self: flex-start;
+  margin-bottom: 5px;
+}
+
+#email {
+  width: 100%;
+  margin-bottom: 20px;
+  height: 25px;
+  border-radius: 5px;
+}
+
+#number-label {
+  align-self: flex-start;
+  margin-bottom: 5px;
+}
+
+#number {
+  width: 100%;
+  margin-bottom: 20px;
+  height: 25px;
+  border-radius: 5px;
+}
+
+#dropdown {
+  margin-bottom: 5px;
+  width: 100%;
+}
+
+#librerias {
+  margin-top: 5px;
+  display: block;
+  width: 100%;
+  height: 35px;
+  border-radius: 5px;
+}
+
+#radio,
+#check {
+  width: 100%;
+  margin-top: 0px;
+}
+
+#back {
+  margin-top: -3px;
+  align-self: flex-start;
+  margin-bottom: 5px;
+}
+
+#front {
+  align-self: flex-start;
+  margin-bottom: 5px;
+}
+
+#full {
+  align-self: flex-start;
+  margin-bottom: 15px;
+}
+
+#python,
+#js,
+#java,
+#php {
+  margin-top: -3px;
+  align-self: flex-start;
+  margin-bottom: 8px;
+}
+
+#r {
+  margin-top: -3px;
+  align-self: flex-start;
+  margin-bottom: 25px;
+}
+
+#text-area {
+  width: 100%;
+  margin-bottom: 25px;
+}
+
+#submit {
+  width: 100%;
+  padding: 10px;
+  background-color: #37af65;
+}
